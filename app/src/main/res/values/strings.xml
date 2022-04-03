@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">The Wedding</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="timeline">Timeline</string>
+    <string name="ride">Ride</string>
+    <string name="account">Account</string>
+    <string name="sign_up_link">New Here? Sign Up</string>
+    <string name="sign_in_link">Already Registered?</string>
+
+</resources>
