@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#ff071823"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="8dp"
+    app:cardMaxElevation="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/event_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/sf_pro_display_med"
+            android:text="Event Name"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/event_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/event_title"
+            android:layout_alignStart="@id/event_title"
+            android:layout_marginTop="5dp"
+            android:text="12:00 AM"
+            android:textColor="#ff999b9e"
+            android:fontFamily="@font/sf_pro_text_light"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/event_venue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/event_time"
+            android:layout_alignStart="@id/event_time"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:text="Venue A"
+            android:fontFamily="@font/sf_pro_text_light"
+            android:textColor="#ff999b9e"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/event_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="20dp"
+            android:visibility="gone"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc posuere sed ante facilisis fringilla. Cras vitae quam sit amet nulla tincidunt dapibus. Nullam justo ipsum, iaculis vel ornare non, mattis sed metus. Pellentesque tincidunt dui nisl, efficitur pharetra elit euismod nec. Sed tellus nibh, efficitur vitae iaculis quis, placerat sed felis. Donec sit amet gravida massa, aliquet condimentum felis. Aliquam vestibulum efficitur enim, eget fringilla ante pellentesque sed. Donec feugiat sed sem ac tincidunt."
+            android:textColor="#ff999b9e"
+            android:fontFamily="@font/sf_pro_text_light"
+            android:layout_below="@id/event_venue"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

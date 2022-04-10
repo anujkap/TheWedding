@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/back_in_layer" />
+        app:srcCompat="@drawable/main_bg" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -59,7 +59,7 @@
         android:contentDescription="logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/devsoc_shadow" />
+        app:srcCompat="@drawable/app_logo" />
 
     <Button
         android:id="@+id/login_button"

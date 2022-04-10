@@ -8,5 +8,7 @@
     <string name="account">Account</string>
     <string name="sign_up_link">New Here? Sign Up</string>
     <string name="sign_in_link">Already Registered?</string>
+    <string name="resend"><u>If you didn\'t receive the mail, click here</u></string>
+    <string name="verification">A verification mail has been sent to your Email Account!</string>
 
 </resources>
